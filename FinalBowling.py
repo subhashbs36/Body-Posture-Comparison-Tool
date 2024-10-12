@@ -7,6 +7,7 @@ from PyQt5.QtGui import QImage, QPixmap
 from pose_module import poseDetector
 from scipy.spatial.distance import cosine
 from fastdtw import fastdtw
+import mediapipe as mp
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
@@ -163,7 +164,7 @@ class PoseComparisonApp(QMainWindow):
                 Accuracy = round(100 * self.correct_frames / self.frame_counter, 2)
                 print(Accuracy)
                 self.accuracy.append(Accuracy)
-                cv2.putText(image_1, "Dance Steps Accurately Done: {}%".format(
+                cv2.putText(image_1, "Steps Accurately Done: {}%".format(
                     str(Accuracy)), (10, 70),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
 
