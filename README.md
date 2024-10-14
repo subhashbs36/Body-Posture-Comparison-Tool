@@ -63,7 +63,7 @@ pip install mediapipe PyQt5 numpy matplotlib dtw-python
 
 Here's an example of the graph output after comparing a bowler's action before and after an injury:
 
-![Example Graph](path/to/example-image.png)
+![Example Graph](output.avi)
 
 ## Applications
 
