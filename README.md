@@ -17,7 +17,7 @@ To set up the project on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pose-comparison-tool.git
+   git clone https://github.com/subhashbs36/Body-posture-comparision-tool-using-pyqt5.git
    ```
 
 2. Navigate to the project directory:
@@ -63,7 +63,7 @@ pip install mediapipe PyQt5 numpy matplotlib dtw-python
 
 Here's an example of the graph output after comparing a bowler's action before and after an injury:
 
-![Example Graph](output.avi)
+![Example Graph](Screenshot 2024-10-14 104447.png)
 
 ## Applications
 
