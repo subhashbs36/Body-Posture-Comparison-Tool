@@ -63,6 +63,12 @@ pip install mediapipe PyQt5 numpy matplotlib dtw-python
 
 Here's an example of the graph output after comparing a bowler's action before and after an injury:
 
+![Example Graph](Picture1.gif)
+
+![Example Graph](Picture1.gif)
+
+Here's an example of the graph output after comparing Yoga actions of two very similaar yoga poses but different in nature:
+
 ![Example Graph](screenshot1.png)
 
 ## Applications
