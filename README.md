@@ -69,7 +69,7 @@ Here's an example of the graph output after comparing a bowler's action before a
 
 ![Example Graph](image8.gif)
 
-Here's an example of the graph output after comparing Yoga actions of two very similaar yoga poses but different in nature:
+Here's an example of the graph output after comparing Yoga actions of two very similar yoga poses but different in nature:
 
 ![Example Graph](screenshot1.png)
 
