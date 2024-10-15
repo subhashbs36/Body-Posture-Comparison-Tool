@@ -11,6 +11,8 @@ This project is a PyQt5-based application that utilizes pose estimation powered 
 - **Graphical Report:** Provides a visual comparison with graphs indicating the variation in poses across the two inputs.
 - **PyQt5 Interface:** User-friendly interface built using PyQt5 for easy video input, analysis, and report generation.
 
+![Example Graph](image4.gif)
+
 ## Installation
 
 To set up the project on your local machine:
@@ -63,9 +65,9 @@ pip install mediapipe PyQt5 numpy matplotlib dtw-python
 
 Here's an example of the graph output after comparing a bowler's action before and after an injury:
 
-![Example Graph](Picture1.gif)
+![Example Graph](Image6.gif)
 
-![Example Graph](Picture1.gif)
+![Example Graph](Image8.gif)
 
 Here's an example of the graph output after comparing Yoga actions of two very similaar yoga poses but different in nature:
 
