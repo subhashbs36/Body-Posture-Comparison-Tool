@@ -2,6 +2,8 @@
 
 This project is a PyQt5-based application that utilizes pose estimation powered by MediaPipe along with the DTW (Dynamic Time Warping) algorithm to compare pose sequences from two video inputs. The tool identifies and visualizes differences in movement patterns, specifically designed to analyze cricket bowling before and after injuries, as well as yoga performances over time.
 
+![Example Graph](image4.gif)
+
 ## Features
 
 - **Pose Estimation:** Leveraging MediaPipe to capture key pose landmarks from video inputs.
@@ -10,8 +12,6 @@ This project is a PyQt5-based application that utilizes pose estimation powered 
 - **Yoga Progress Analysis:** Analyze changes in yoga poses over time to monitor performance improvements or degradations.
 - **Graphical Report:** Provides a visual comparison with graphs indicating the variation in poses across the two inputs.
 - **PyQt5 Interface:** User-friendly interface built using PyQt5 for easy video input, analysis, and report generation.
-
-![Example Graph](image4.gif)
 
 ## Installation
 
@@ -65,9 +65,9 @@ pip install mediapipe PyQt5 numpy matplotlib dtw-python
 
 Here's an example of the graph output after comparing a bowler's action before and after an injury:
 
-![Example Graph](Image6.gif)
+![Example Graph](image6.gif)
 
-![Example Graph](Image8.gif)
+![Example Graph](image8.gif)
 
 Here's an example of the graph output after comparing Yoga actions of two very similaar yoga poses but different in nature:
 
